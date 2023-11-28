@@ -5,12 +5,13 @@ index는 영어로 첫 번째로 해석된다. -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Talk</title>
   </head>
   <body>
+
     <div class="status-bar">
       <!--맨 위에 상단바... 세부분--->
       <div class="status-bar__column">
@@ -31,6 +32,23 @@ index는 영어로 첫 번째로 해석된다. -->
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If u have a Kokoa Account,
+            log in with your email or phone number.
+        </p>
+    </header>
+
+    <form class="welcome-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log in"/>
+        <input type="button" placeholder="Sign up"/>
+        <input type="button" placeholder="Find Kokoa Account or Password"/>
+        <a href="#" target="_blank">Find Kokoa Account or Password</a>
+    </form>
+
     <script src="https://kit.fontawesome.com/3dfa3516a9.js" crossorigin="anonymous"></script>
   </body>
 </html>
