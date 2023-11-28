@@ -1,0 +1,36 @@
+<!-- png.2 구현
+이름을 index로 지은 이유는 : 대부분의 웹 서버가 디폴트로 index.html울 찾아보도록 설정되어 있다.
+index는 영어로 첫 번째로 해석된다. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="index.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <!--맨 위에 상단바... 세부분--->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- To Do : wifi icon -->
+        <i class="fa-solid fa-wifi"></i>
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock"></i>
+        <span>11%</span>
+        <!-- Battery icon -->
+        <i class="fa-solid fa-battery-three-quarters"></i>
+        <!-- Lightning icon -->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3dfa3516a9.js" crossorigin="anonymous"></script>
+  </body>
+</html>
