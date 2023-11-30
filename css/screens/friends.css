@@ -1,0 +1,39 @@
+.screen-div {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color:#FAFAFA ;
+    justify-content: center;
+
+}
+
+.screen-div__info {
+    color:#D5D5D5;
+}
+
+.screen-div__title {
+    padding: 0px 5px;
+}
+
+.screen-div__next {
+    color:#D5D5D5;
+}
+
+.screen-channel{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #D5D5D5;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.screen-channel__title {
+    display: block;
+    color :#D5D5D5;
+}
+
+.screen-channel__up {
+    color :#D5D5D5;
+
+}
