@@ -8,7 +8,7 @@ index는 영어로 첫 번째로 해석된다. -->
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends screen</title>
   </head>
   <body>
 
@@ -33,20 +33,36 @@ index는 영어로 첫 번째로 해석된다. -->
       </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">If u have a Kokoa Account,
-            log in with your email or phone number.
-        </p>
-    </header>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x">
+                    </i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fa-regular fa-comment fa-2x">
+                    </i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fas fa-magnifying-glass fa-2x">
+                    </i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        
+    </nav>
 
-    <form action="friends.html" method="get" class="welcome-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password"/>
-        <input type="submit" value="Log in"/>
-        <input type="button" value="Sign up"/>
-        <a href="#" target="_blank">Find Kokoa Account or Password</a>
-    </form>
+
 
     <script src="https://kit.fontawesome.com/3dfa3516a9.js" crossorigin="anonymous"></script>
   </body>

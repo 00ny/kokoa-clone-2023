@@ -1,0 +1,29 @@
+.nav {
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    border-top:0.5px solid rgba(79, 79, 79, 0.518);
+    position : fixed;
+    bottom : 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.nav__link {
+    color : #2F363E;
+}
+
+/* .nav__btn {
+    width: 25%;
+    
+}
+
+.nav__btn:first-child {
+    justify-content: center;
+} */
