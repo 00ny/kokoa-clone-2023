@@ -1,10 +1,11 @@
 .screen-div {
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color:#FAFAFA ;
     justify-content: center;
-
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .screen-div__info {
@@ -19,21 +20,16 @@
     color:#D5D5D5;
 }
 
-.screen-channel{
+.friends-screen__channel{
+    border-top: 1px solid #D5D5D5;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.friends-screen__channel-title {
+    margin-bottom: 30px;
     display: flex;
+    color :#D5D5D5;
     justify-content: space-between;
-    border-top: solid 1px #D5D5D5;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
-.screen-channel__title {
-    display: block;
-    color :#D5D5D5;
-}
-
-.screen-channel__up {
-    color :#D5D5D5;
-
-}
