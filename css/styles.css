@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/bedge.css";
 
 /* screens */
 @import "screens/welcome-header.css";
@@ -32,18 +33,4 @@ body {
     position:absolute;
     right: 0px;
     bottom:5px;
-}
-
-.user-component__column2-time{
-}
-
-.user-component__column2-notification {
-    background-color: tomato;
-    width: 28px;
-    height: 28px;
-    border-radius: 14px;
-
-    color :#f9f9fa;
-    align-items: center;
-    font-weight: 600;
 }
