@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends screen</title>
+    <title>Chats screen</title>
   </head>
   <body>
 
@@ -32,11 +32,15 @@
 
     <header class="screen-header">
         <h1 class="screen-header__title">
-            Friends
+            Chats
         </h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fas fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span class="chat__plus">
+                <i class="fa-regular fa-comment fa-lg"></i>
+                <i id="plus" class="fa-solid fa-plus fa-2xs"></i>
             </span>
             <span>
                 <i class="fas fa-music fa-lg"></i>
@@ -47,59 +51,22 @@
         </div>
     </header>
 
-    <!-- 이렇게 한 화면에만 특정하게 나온다면, id를 쓰는것도 좋다 -->
-    <div class="screen-div">
-        <span class="screen-div__info">
-            <i class="fas fa-circle-info fa-lg"></i>
-        </span>
-        <p class="screen-div__title">
-            Friends' Names Display
-        </p>
-        <span class="screen-div__next">
-            <i class="fas fa-chevron-right fa-xs"></i>
-        </span>
-    </div>
-
-    <main class="friend-screen">
+    <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img
-                    class="user-component__avatar--xl"
+                    class="user-component__avatar"
                     src="정소민팬카페프사.jpeg"
                 />
                 <div class="user-component__text">
                     <h4 class="user-component__title">somingod</h4>
-                    <!-- <h6 class="user-component__subtitle">야 드디어 나왔다.</h6> -->
+                    <h6 class="user-component__subtitle">야 드디어 나왔다.</h6>
                 </div>
             </div>
             <div class="user-component__column2">
-                
+                <span class="user-component__column2-time">21:22</span>
+                <span class="user-component__column2-notification">1</span>
             </div>
-        </div>
-    
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-title">
-                <span >Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    
-                    <img
-                        class="user-component__avatar--sm"
-                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MDFfODMg%2FMDAxNjYxOTYwOTU3NjYz.niSiJGMiey9aDiQJr9oy8U4pKWRbVnmFtvD3wd4pvS4g.-XDHAEw1P3X6-w6xSCgC6GdCs7zecAAWMRpCO7_m3tsg.JPEG.qlqordms%2F1c43e56e5321269c9ad9d29aa3fcdf39.jpg&type=sc960_832"
-                    />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">
-                            channel
-                        </h4>
-                    </div>
-                </div>
-                <div class="user-component__column2">
-                    <span>2</span>
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-            </div>    
         </div>
     </main>
 
@@ -107,14 +74,14 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x">
+                    <i class="fa-regular fa-user fa-2x">
                     </i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification">1</span>
-                    <i class="fa-regular fa-comment fa-2x">
+                    <i class="fa-solid fa-comment fa-2x">
                     </i>
                 </a>
             </li>
