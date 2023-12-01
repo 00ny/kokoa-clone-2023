@@ -16,6 +16,27 @@
     margin-left: 25px;
 }
 
-.friend-screen {
+.main-screen {
     padding: 0px var(--horizon-space);
+}
+
+.chat__plus {
+    position: relative;
+}
+
+#plus {
+    padding:4px;
+    background-color: white;
+    position:absolute;
+    right: 0px;
+    bottom:5px;
+}
+
+.set {
+    position: relative;
+}
+
+.set__dot{
+    right:0.1px;
+    bottom:13px;
 }

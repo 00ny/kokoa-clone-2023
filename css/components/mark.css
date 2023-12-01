@@ -1,0 +1,12 @@
+.mark{
+    border-top: 1px solid #D5D5D5;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.mark-title {
+    margin-bottom: 30px;
+    display: flex;
+    color :#D5D5D5;
+    justify-content: space-between;
+}
