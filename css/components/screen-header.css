@@ -4,7 +4,8 @@
     align-items: center;
     padding:var(--horizon-space);
     position: relative;
-    top:10px;
+    top:30px;
+    margin-bottom: 20px;
 }
 
 .screen-header__title {
@@ -14,10 +15,6 @@
 
 .screen-header__icons span {
     margin-left: 25px;
-}
-
-.main-screen {
-    padding: 0px var(--horizon-space);
 }
 
 .chat__plus {

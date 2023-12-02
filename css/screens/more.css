@@ -1,0 +1,50 @@
+
+.user-component__more-div {
+    color: tomato;
+    display: flex;
+    align-items: center;
+}
+
+.user-component__more-num {
+    color: rgba(0,0,0,0.5);
+}
+
+.more-position {
+    position: relative;
+    left:6px;
+    top:4px;
+}
+
+.more-icons {
+
+}
+
+.more-icons__line {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.more-icons__icon {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 25%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-icons__icon span {
+    font-size: 15px;
+    color:rgba(0,0,0,0.5);
+    position:relative;
+    top:20px;
+}
+
+.suggestions {
+    margin-top:5px;
+}
+
+.suggestions-title {
+    color:rgba(0,0,0,0.5);
+}

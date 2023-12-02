@@ -3,8 +3,6 @@
     align-items: center;
     justify-content: space-between;
     margin: var(--horizon-space);
-
-
 }
 
 .find-screen__icon {
@@ -46,7 +44,7 @@
     align-self: center;
     justify-content: center;
     color :#A0A0A0;
-    padding: 100px 10px;
+    padding: 120px 10px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -120,4 +118,8 @@
 
 .openchat__thumbnail-likesnum {
     padding-left: 1px;
+}
+
+.find-header {
+    margin-bottom: 50px;
 }
