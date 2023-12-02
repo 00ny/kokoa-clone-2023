@@ -60,6 +60,8 @@
 
 .openchat__title {
     font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
 }
 
 .openchat__hashtag {
@@ -70,6 +72,14 @@
 .openchat__discription {
     display: flex;
     align-items: center;
+    margin-top: 7px;
+}
+
+.openchat__discription .divider {
+    width:2px;
+    height: 10px;
+    background-color: #A0A0A0;
+    margin: 0 5px;
 }
 
 .openchat__discription-master {
@@ -80,7 +90,6 @@
 }
 
 .openchat__discription-members {
-    margin-right: 5px;
     color: rgba(0,0,0,0.3);
 }
 
@@ -104,7 +113,7 @@
     background-color: rgba(0,0,0,0.6);
     color : white;
     bottom : 5px;
-    right: 10px;
+    right: 3px;
     padding: 3px 8px;
     border-radius: 12px;
 }
