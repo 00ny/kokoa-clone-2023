@@ -5,14 +5,20 @@
     align-items: center;
 }
 
-.user-component__more-num {
+.user-component__more-div h6 {
     color: rgba(0,0,0,0.5);
 }
 
-.more-position {
+.user-component__more-div div {
     position: relative;
     left:6px;
     top:4px;
+}
+
+/* 이런 식으로 특정해버릴 수 있다는 말 */
+.more-screen .more-icons .more-icons__line{
+    display: flex;
+    margin: 10px 0px;
 }
 
 .more-icons {
@@ -21,7 +27,6 @@
 
 .more-icons__line {
     display: flex;
-    margin: 10px 0px;
 }
 
 .more-icons__icon {
@@ -34,11 +39,26 @@
     align-items: center;
 }
 
+.more-icons__icon i {
+    margin-bottom: 15px;
+}
+
+.more-suggestions__icon div {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 12px;
+}
+
 .more-icons__icon span {
     font-size: 15px;
     color:rgba(0,0,0,0.5);
     position:relative;
     top:20px;
+}
+
+.more-suggestions__icon span {
+
 }
 
 .suggestions {
@@ -47,4 +67,6 @@
 
 .suggestions-title {
     color:rgba(0,0,0,0.5);
+    display: block;
+    margin-bottom: 10px;
 }
