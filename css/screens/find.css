@@ -3,15 +3,18 @@
     align-items: center;
     justify-content: space-between;
     margin: var(--horizon-space);
+
+
 }
 
 .find-screen__icon {
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
-#circle-id {
+.circle-id {
     display: flex;
     height: 26px;
     width: 26px;
@@ -21,7 +24,11 @@
     justify-content: center;
     align-items: center;
     font-weight: 600;
-    margin-bottom: -10px ;
+    margin-bottom: -20px ;
+
+    position: relative;
+    top:-20px;
+    left: 18px;
 }
 
 .find-screen__icons-title {
@@ -29,12 +36,17 @@
     margin-top: 20px;
 }
 
+.find-screen__icons-title3 {
+    position:relative;
+    top:5.5px;
+}
+
 .find-center {
     display: flex;
     align-self: center;
     justify-content: center;
     color :#A0A0A0;
-    padding: 50px 10px;
+    padding: 100px 10px;
     font-size: 18px;
     font-weight: 400;
 }
