@@ -25,3 +25,42 @@ body {
 .main-screen {
     padding: 0px var(--horizon-space);
 }
+
+a:visited {
+    color : inherit;
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding:40px var(--horizon-space);
+}
+
+.settings-group {
+
+}
+
+.settings-group__items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    padding : 23px 0px;
+    font-weight: 400;
+}
+
+.settings-group__item {
+    display: flex;
+    align-items: center;
+}
+
+.settings-group__item:nth-child(2) {
+    color : rgba(0,0,0,0.3);
+}
+
+.settings-group__item i {
+    padding-right: 20px;
+}
+
