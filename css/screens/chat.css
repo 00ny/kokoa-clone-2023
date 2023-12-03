@@ -1,16 +1,43 @@
 .chat-screen {
     background-color: #abc1d1;
+    height: 1000vh;
+}
+
+.chat-screen .alt-screen-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2px;
+    z-index: 1;
+}
+
+.chat-screen .status-bar,
+.chat-screen .alt-screen-header {
+    background-color: #abc1d1;
+    top:0;
+}
+
+.chat-screen .status-bar {
+    z-index: 2;
+}
+
+.main-chat{
+    margin-top: 120px;
 }
 
 .timeline {
     display: flex;
     justify-content: center;
     align-items: center;
+
     background-color: rgba(0,0,0,0.2);
     font-size: 12px;
     color:white;
+
     width: 50%;
     margin: 10px 25%;
     padding: 10px;
     border-radius: 30px;
 }
+
+
