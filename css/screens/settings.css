@@ -1,0 +1,35 @@
+.settings-main {
+    margin: -20px 0px 0px 0px;
+
+}
+
+.settings-group {
+
+}
+
+.settings-group__items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    padding : 23px 0px;
+    font-weight: 400;
+    border-bottom: solid 0.7px rgba(0,0,0,0.05);
+}
+
+.settings-group__items:last-child {
+    border-bottom:0px;
+}
+
+.settings-group__item {
+    display: flex;
+    align-items: center;
+}
+
+.settings-group__item:nth-child(2) {
+    color : rgba(0,0,0,0.3);
+}
+
+.settings-group__item i {
+    font-size: 18px;
+    padding-right: 20px;
+}
