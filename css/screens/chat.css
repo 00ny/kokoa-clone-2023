@@ -96,8 +96,59 @@
     flex-direction: row-reverse;
 }
 
+/* .message-row__info .message-bubble {
+    order :0;
+}
+
+.message-row__info .message-time {
+    order : 1;
+} */
+
+
 .my-bubble {
     background-color: var(--yellow);
     border-radius: 13px;
     border-top-right-radius: 0;
+}
+
+.reply {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.reply__column i {
+    opacity: 0.6;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.reply__column:first-child{
+    justify-content: center;
+    width: 10%;
+}
+
+.reply__column:last-child {
+    width: 90%;
+    display: flex;
+    background-color:#F8F8F8;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px 5px;
+    border: solid 0.5px rgba(0,0,0,0.3);
+    align-items: center;
+
+}
+
+#chatting{
+    width: 90%;
+    font-size: 18px;
+    border: 0px;
+    background: none;
+}
+
+#send {
+    background-color: var(--yellow);
+    border-radius: 13px;
 }
