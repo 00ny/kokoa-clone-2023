@@ -1,6 +1,6 @@
 .chat-screen {
     background-color: #abc1d1;
-    height: 1000vh;
+    height: 400vh;
 }
 
 .chat-screen .alt-screen-header {
@@ -21,11 +21,23 @@
     z-index: 2;
 }
 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .main-chat{
     margin-top: 120px;
     display: flex;
     flex-direction: column;
     align-items:center;
+    animation: fadeIn 0.3s linear;
 }
 
 .timeline {
@@ -92,9 +104,31 @@
     justify-content: flex-end;
 }
 
-.my-message .message-row__info {
-    flex-direction: row-reverse;
+@keyframes bubble {
+    from {
+
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
+
+.my-message .message-row__info {
+    opacity: 0;
+    transform: translateX(20px);
+    flex-direction: row-reverse;
+    animation: bubble 1s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.message-row:last-child {
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: bubble 1s ease-in-out forwards;
+    animation-delay: 3.5s;
+}
+
 
 /* .message-row__info .message-bubble {
     order :0;
@@ -112,6 +146,8 @@
 }
 
 .reply {
+    transition: all 0.35s ease-in-out;
+
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -128,6 +164,23 @@
     opacity: 0.6;
     font-size: 25px;
     /* padding: 0px 10px; */
+}
+
+.reply .reply__column:first-child,
+.reply .reply__column:last-child i,
+.reply .reply__column:last-child button {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply__column:last-child i,
+.reply:focus-within .reply__column:last-child button {
+    opacity: 0;
+}
+
+.reply:focus-within input {
+    width: 90vw;
+    transform:translateX(-12%) translateY(-80px);
 }
 
 .reply__column:first-child{
@@ -169,6 +222,9 @@
 }
 
 .reply__column input {
+    transition: all 0.35s ease-in-out;
+    /* transition: translate 0s linear; */
+
     background-color:#F8F8F8;
     border-radius: 20px;
     padding: 10px;
@@ -176,4 +232,8 @@
 
     width: 100%;
     font-size: 18px;
+}
+
+.reply:focus-within {
+    transform: translateY(80px);
 }

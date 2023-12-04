@@ -1,3 +1,7 @@
+.find-screen__size {
+    height: 105vh;
+}
+
 .find-screen__icons{
     display: flex;
     align-items: center;
@@ -122,4 +126,23 @@
 
 .find-header {
     margin-bottom: 50px;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform:scale(1.3);
+    }
+    100% {
+        color:white;
+        transform: none;
+    }
+}
+
+.openchat__thumbnail-likes:hover .fa-heart {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }
